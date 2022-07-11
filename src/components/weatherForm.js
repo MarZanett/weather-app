@@ -26,7 +26,7 @@ export default function WeatherForm({ onChangeCity }) {
   <h1 className={styles.title} >Weather App</h1>
     <form onSubmit={handleSubmit} className={styles.container}>
       <input type="text" onChange={onChange}  className={styles.input} placeholder="search" />
-      <button onClick={()=>{onClick()}} className={styles.button}>Send</button>
+      <button onClick={(e)=>onClick(e)} className={styles.button}>Send</button>
       
     </form>
     </div>
