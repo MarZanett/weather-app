@@ -4,7 +4,7 @@
 
 .input{
 
-    width: 100%;
+    width: 84.5%;
     padding: 10px;
     box-sizing: border-box;
     font-size:18px;
@@ -15,4 +15,16 @@
 .title{
     font-size:40px;
     text-align:center
+}
+
+.button{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(72, 122, 221);
+    color: white;
+    margin: 3px;
+    font-size:18px;
+    padding: 10px;
+    width: 71px;
+    
 }
